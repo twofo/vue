@@ -1,0 +1,407 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+html,
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    color: #333333;
+}
+
+html,
+body,
+header,
+section,
+footer,
+div,
+ul,
+ol,
+li,
+img,
+a,
+span,
+em,
+del,
+legend,
+center,
+strong,
+var,
+fieldset,
+form,
+label,
+dl,
+dt,
+dd,
+cite,
+input,
+hr,
+time,
+mark,
+code,
+figcaption,
+figure,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: normal;
+    line-height: 1;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+textarea::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #CCCCCC;
+}
+
+textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #CCCCCC;
+}
+
+textarea:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #CCCCCC;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+}
+
+button {
+    overflow: visible;
+    padding: 0;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* fade-transform */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+    opacity: 1;
+    transition: all .5s;
+}
+
+.fade-transform-enter-active-null {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.fade-transform-enter {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+/* elementUI ie9样式 */
+.el-input__inner {
+    border: 1px solid #DCDFE6;
+}
+
+.jshidden {
+    display: none !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: #59b3fd !important;
+}
+
+
+.zdy_sjfw>span {
+    margin: 0 3px;
+    font-size: 14px;
+
+}
+
+.zdy_sjfw .el-date-editor {
+    width: 149px !important;
+}
+
+.butonnhover button:hover {
+    background: #59b3fd !important;
+    color: white;
+}
+
+.opeartion button:hover,
+.el-table .el-table__body-wrapper tr td:last-child span:hover {
+    color: #59b3fd !important;
+}
+
+
+.whitebutton {
+    box-shadow: 0 0.01042rem 0.02083rem 0 rgb(0 0 0 / 30%);
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #333333;
+    border: 0;
+    height: 31px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.whitebutton:hover {
+    color: #2d92ff;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /*对垂直流动条有效*/
+    height: 10px;
+    /*对水平流动条有效*/
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #efeff0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: #DDDEE0;
+}
+
+.top_header li:first-child,
+.headertab li:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.left_tree {
+    position: fixed;
+    width: 252px;
+    height: 87%;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.left_tree .el-tree .el-tree-node__content {
+    height: 44px;
+    font-size: 16px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+}
+
+.left_tree .default {
+    width: 252px;
+    height: 44px;
+    background: #f1f9ff;
+    border-radius: 8px;
+    line-height: 44px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.left_tree .default span {
+    font-size: 19px;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    color: #2b9cff;
+}
+
+.left_tree .default i {
+    margin-right: 12px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #b4b4b4;
+    border-radius: 2px;
+}
+
+.left_tree .default .active {
+    background: #2b9cff;
+    border: 2px solid #2b9cff;
+
+}
+
+.i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.el-pagination {
+    text-align: center;
+}
+
+.tablesort {
+    display: inline-flex;
+    align-items: center;
+    height: 34px;
+    width: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: initial;
+    position: relative;
+    -webkit-user-select: none;
+}
+
+table .tablesort i {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    position: absolute;
+    left: 7px;
+}
+
+.ascending .tablesort .ascendingcheck {
+    border-bottom-color: #409eff !important;
+}
+
+.descending .tablesort .descendingcheck {
+    border-top-color: #409eff !important;
+}
+
+.tablesort .ascending {
+    border-bottom-color: #c0c4cc;
+    top: 5px;
+}
+
+.tablesort .descending {
+    border-top-color: #c0c4cc;
+    bottom: 7px;
+}
+
+.button {
+    margin: 10px 0;
+    text-align: right;
+}
+
+.button button {
+    height: 30px;
+    padding: 0 8px;
+    line-height: 30px;
+    border: 1px solid #d9d9d9;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.button button:hover {
+    border: 1px solid #2d92ff;
+    color: #2d92ff;
+}
+
+.button button:last-child:hover {
+    background: #53a5fd;
+    color: white;
+    border: 0;
+}
+
+.button button:last-child {
+    background: #2d92ff;
+    color: white;
+    margin-right: 0;
+    border: 0;
+}
+
+
+.fontblue {
+    color: #2d92ff;
+    cursor: pointer;
+}
+
+.fontblue :hover {
+    color: #59b3fd;
+}
+
+.el-tooltip__popper {
+    width: 200px;
+    text-align: center;
+}

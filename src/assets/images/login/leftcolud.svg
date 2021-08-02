@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="80px" viewBox="0 0 100 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>左边云</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M90,53.1771551 L90,53.1750498 C90,45.845507 84.0873999,39.9043983 76.794807,39.9043983 C76.6821761,39.9043983 76.5779661,39.9349249 76.4653351,39.9380828 C74.9485011,32.3506428 68.2853786,26.6347994 60.288579,26.6347994 C57.1749114,26.6347994 54.2949267,27.5527028 51.8096767,29.0579802 C49.0728492,23.7021402 43.5834047,20 37.1802808,20 C1.51310203,20 3.40151305,60.1898528 28.6255895,59.9993247 L33.1908284,59.9993247 C45.6528674,59.9993247 62.3885679,59.9361662 83.3979298,59.8098492 C87.0431736,59.8098492 90,56.8403475 90,53.1771551" id="path-1"></path>
+        <filter x="-16.3%" y="-27.5%" width="132.5%" height="165.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.13 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="左边云" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="左边云朵">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

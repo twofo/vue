@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="91px" viewBox="0 0 150 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>右边云</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-25.0%" y="-52.5%" width="150.0%" height="205.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.128387238 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="右边云" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="云朵-2" filter="url(#filter-1)" transform="translate(13.000000, 16.000000)" fill="#FFFFFF">
+            <path d="M114.461378,58.9989464 C119.728773,58.9989464 124,54.5981786 124,49.169125 L124,49.1659643 C124,38.3036429 115.458588,29.4989464 104.922756,29.4989464 C104.75916,29.4989464 104.609109,29.54425 104.447597,29.5484643 C102.255193,18.30475 92.629042,9.83192857 81.0772437,9.83192857 C76.5788571,9.83192857 72.418084,11.1931429 68.8272941,13.4246071 C64.8728403,5.487 56.9441345,0 47.6920672,0 C36.1392269,0 26.5130756,8.47176786 24.3217143,19.7154821 C24.1591597,19.7123214 24.0091092,19.6670179 23.8465546,19.6670179 C10.6754622,19.6670179 0,30.672625 0,44.2489464 L0,44.2542143 C0.00208403361,52.399375 6.40631933,59 14.3089748,59 L114.461378,59 L114.461378,58.9989464 Z" id="云朵"></path>
+        </g>
+    </g>
+</svg>

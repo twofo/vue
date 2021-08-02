@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>编组 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F0FDFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#C1FCFF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="97.8462838%" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.404092002" offset="0%"></stop>
+            <stop stop-color="#F7F7F7" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-4" cx="36" cy="36" r="36"></circle>
+        <filter x="-11.1%" y="-8.3%" width="122.2%" height="122.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.164234793   0 0 0 0 0.464630707   0 0 0 0 0.4825351  0 0 0 0.171437937 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50.0%" y="-36.4%" width="200.0%" height="172.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.147956295   0 0 0 0 0.147956295   0 0 0 0 0.147956295  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="web-2021年6月新增" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="水控独立系统-04.设备管理&gt;智能管控&gt;照明管控&gt;运行状态" transform="translate(-288.000000, -275.000000)" fill-rule="nonzero">
+            <g id="编组-19" transform="translate(293.000000, 278.000000)">
+                <g id="椭圆形" stroke-linecap="square">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                    <use stroke="url(#radialGradient-3)" stroke-width="2" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                </g>
+                <g id="断路器" transform="translate(16.000000, 17.000000)">
+                    <rect id="矩形" fill="#3CE0EA" x="0" y="0" width="39" height="39" rx="7"></rect>
+                    <g id="编组-4" transform="translate(8.000000, 3.000000)">
+                        <g id="编组" filter="url(#filter-6)">
+                            <path d="M3.05035238,4.24997753 C3.71409459,4.24997753 4.25455091,3.70770937 4.25455091,3.04169663 C4.25455091,2.37568389 3.71409459,1.83333333 3.05035238,1.83333333 C2.38661017,1.83333333 1.84615385,2.37568389 1.84615385,3.04169663 C1.84615385,3.70770937 2.38661017,4.24997753 3.05035238,4.24997753 Z M19.1034938,4.24997753 C19.7674063,4.24997753 20.3076923,3.70770937 20.3076923,3.04169663 C20.3076923,2.37568389 19.7673637,1.83333333 19.1034938,1.83333333 C18.4397516,1.83333333 17.8992952,2.37568389 17.8992952,3.04169663 C17.8992952,3.70770937 18.4397942,4.24997753 19.1034938,4.24997753 Z M11.0769231,4.24997753 C11.7406653,4.24997753 12.2811216,3.70770937 12.2811216,3.04169663 C12.2811216,2.37568389 11.7406653,1.83333333 11.0769231,1.83333333 C10.4131809,1.83333333 9.87272454,2.37568389 9.87272454,3.04169663 C9.87272454,3.70770937 10.4131809,4.24997753 11.0769231,4.24997753 Z M3.05035238,28.4166667 C3.71409459,28.4166667 4.25455091,27.8743985 4.25455091,27.2083858 C4.25455091,26.542373 3.71409459,26.0001049 3.05035238,26.0001049 C2.38661017,26.0001049 1.84615385,26.542373 1.84615385,27.2083858 C1.84615385,27.8743985 2.38661017,28.4166667 3.05035238,28.4166667 Z M19.1034938,28.4166667 C19.7674063,28.4166667 20.3076923,27.8743985 20.3076923,27.2083858 C20.3076923,26.542373 19.7673637,26.0001049 19.1034938,26.0001049 C18.4397516,26.0001049 17.8992952,26.542373 17.8992952,27.2083858 C17.8992952,27.8743985 18.4397942,28.4166667 19.1034938,28.4166667 Z M11.0769231,28.4166667 C11.7406653,28.4166667 12.2811216,27.8743985 12.2811216,27.2083858 C12.2811216,26.542373 11.7406653,26.0001049 11.0769231,26.0001049 C10.4131809,26.0001049 9.87272454,26.542373 9.87272454,27.2083858 C9.87272454,27.8743985 10.4131809,28.4166667 11.0769231,28.4166667 Z" id="形状" fill="#FFFFFF"></path>
+                            <polygon id="路径" fill="#FFFFFF" points="2.76923077 6.41666667 18.4615385 6.41666667 18.4615385 24.75 2.76923077 24.75"></polygon>
+                            <path d="M5.53846154,14.5884696 L17.5384615,14.5884696 L17.5384615,18.3333333 L5.53846154,18.3333333 L5.53846154,14.5884696 Z M6.74953264,11.9166667 L9.39167807,11.9166667 L9.39167807,14.5884696 L6.74953264,14.5884696 L6.74953264,11.9166667 Z M10.2867391,11.9166667 L12.9289705,11.9166667 L12.9289705,14.5884696 L10.2867391,14.5884696 L10.2867391,11.9166667 Z M13.8239455,11.9166667 L16.4662629,11.9166667 L16.4662629,14.5884696 L13.8239455,14.5884696 L13.8239455,11.9166667 Z" id="形状" fill="#FAB272"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

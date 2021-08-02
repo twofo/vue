@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>提示</title>
+    <desc>Created with Sketch.</desc>
+    <g id="提示" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g transform="translate(2.000000, 2.000000)" fill="#000000" id="编组">
+            <g>
+                <path d="M6.5,13 C2.91015625,13 0,10.0898438 0,6.5 C0,2.91015625 2.91015625,0 6.5,0 C10.0898438,0 13,2.91015625 13,6.5 C13,10.0898438 10.0898438,13 6.5,13 Z M6,5.5 C5.72385937,5.5 5.5,5.72385937 5.5,6 L5.5,10.25 L7,10.25 C7.27614063,10.25 7.5,10.0261406 7.5,9.75 L7.5,5.5 L6,5.5 Z M6.5,4.75 C7.05228125,4.75 7.5,4.30228125 7.5,3.75 C7.5,3.19771875 7.05228125,2.75 6.5,2.75 C5.94771875,2.75 5.5,3.19771875 5.5,3.75 C5.5,4.30228125 5.94771875,4.75 6.5,4.75 Z" id="形状" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
